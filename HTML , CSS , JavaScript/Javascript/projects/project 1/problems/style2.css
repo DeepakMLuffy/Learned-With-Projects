@@ -1,0 +1,11 @@
+/** @format */
+
+div {
+  padding: 100px;
+  background-color: skyblue;
+  display: inline-block;
+}
+p {
+ color: black;
+  font-size: 2rem;
+}

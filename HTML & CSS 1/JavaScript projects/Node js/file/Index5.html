@@ -1,0 +1,24 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 onclick="one(event)">One</h1>
+    <h1 onclick="one(event)">Two</h1>
+    <h1 onclick="one(event)">Three</h1>
+    <h1 onclick="one(event)">Four</h1>
+    <h1 onclick="one(event)">Five</h1>
+    <h1 onclick="one(event)">Six</h1>
+    <script>
+      var One = document.getElementById("one");
+      function one(event) {
+        event.target.remove();
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+*{
+ margin:0;
+ padding: 0;
+}
+
+body{
+ background-color: #c78c54;
+ color:   #5c3d1f;
+}
+
+.container{
+ text-align: center;
+ 
+}
+
+.container h1{
+ padding: 10%;
+ font-size: 4em;
+}
+.container p{
+ padding: 5%;
+ font-size: 2em;
+}
+.container button{
+ text-decoration-line: none;
+ padding: 5px 10px;
+ border-radius: 10px;
+ background-color: #94b8b8;
+ font-size: 2em;
+ 
+ 
+}

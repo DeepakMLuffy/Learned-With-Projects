@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <h1 id="name">Name</h1>
+ <button onclick="john(event)">John</button>
+ <button onclick="praveen(event)">Praveen</button>
+ <button onclick="karthi(event)">Karthick</button>
+ <script>
+  var a=document.getElementById("name")
+  
+  function john(event){
+   a.textContent=event.target.textContent
+  }
+
+  function praveen(event){
+   a.textContent=event.target.textContent
+  }
+
+
+  function karthi(event){
+   a.textContent=event.target.textContent
+  }
+ </script>
+</body>
+</html>

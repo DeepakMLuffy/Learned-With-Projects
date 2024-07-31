@@ -1,0 +1,42 @@
+<!--  append
+          It will appear down-->
+
+ <div id="hi">
+ <p >HI</p>
+</div>
+<script>
+ var hi = document.getElementById("hi")
+ 
+ var h1= document.createElement("h1")
+ h1.textContent="Hello"
+ console.log(h1)
+ hi.append(h1) 
+</script> 
+
+
+<!--prepend
+       It will appear Up-->
+
+
+<div id="">
+ <h1> john</h1>
+</div>
+<script>
+ var div = document.querySelector("div")
+ div.prepend("Hello")
+</script> 
+
+
+<!-- insertAdjacentElement -->
+
+<div > 
+ <h1> Hello Jessy</h1>
+ <h1></h1>
+</div>
+
+<script>
+ var div=document.querySelector("div")
+ var h1= document.createElement("h1")
+ h1.innerHTML="Bye Deepak"
+ div.insertAdjacentElement("beforeend",h1)
+</script>

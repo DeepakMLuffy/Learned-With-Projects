@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Poppins&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+section {
+	height: 110vh;
+	width: 100%;
+	display: flex;
+}
+.sec1 {
+	background-image: url(images/image\ 1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.sec2 {
+	background-image: url(images/image\ 2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.sec3 {
+	background-image: url(images/image\ 3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.sec4 {
+	background-image: url(images/image\ 4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.sec5 {
+	background-image: url(images/image\ 5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.sec6 {
+	background-image: url(images/image\ 6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.sec7 {
+	background-image: url(images/image\ 7.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.con{
+ background: rgba(0,0,0,.5);
+ padding: 1rem 5rem;
+ color: white;
+ align-self: flex-end;
+ margin-bottom: 52px;
+}
+.content{
+ background: rgba(0,0,0,.5);
+ padding: 1rem 5rem;
+ color: white;
+ align-self: flex-end;
+ /* margin-bottom: 52px; */
+}

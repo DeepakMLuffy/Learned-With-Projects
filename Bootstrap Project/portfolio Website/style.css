@@ -1,0 +1,255 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	font-family: "Poppins", sans-serif;
+}
+nav {
+	width: 100%;
+	position: sticky !important;
+	left: 0;
+	top: 0;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+.navbar-brand {
+	font-weight: 600;
+}
+.nav-link {
+	color: white !important;
+}
+.nav-link:hover {
+	border-bottom: 1px solid white;
+}
+section {
+	width: 100%;
+	min-height: 100vh;
+	/* text-align: center; */
+}
+
+/* Home Section */
+#home {
+	color: white;
+	width: 100%;
+	height: 100vh;
+	background: url(images/portfolio\ 1.jpg);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#home p {
+	position: absolute;
+	top: 40%;
+	font-size: 100px;
+	opacity: 0;
+	animation: text 3s ease-in-out;
+}
+#home p:nth-child(1) {
+	animation-delay: 0s;
+}
+#home p:nth-child(2) {
+	animation-delay: 3s;
+}
+#home p:nth-child(3) {
+	animation-delay: 6s;
+}
+#home p:nth-child(4) {
+	animation-delay: 9s;
+}
+@keyframes text {
+	50% {
+		opacity: 1;
+	}
+}
+@media screen and (max-width: 576px) {
+	#home p {
+		font-size: 70px;
+	}
+}
+#home span {
+	color: yellow;
+}
+/* About section */
+#about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+.circle {
+	width: 400px;
+	height: 400px;
+	background: white;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0px 0px 18px #fffffff2;
+	margin-bottom: 3%;
+	margin-top: 8%;
+	transition: 1s;
+}
+.circle img {
+	position: absolute;
+	height: 350px;
+	top: 8%;
+	left: 4%;
+	filter: drop-shadow(0px 30px 15px rgba(0, 0, 0, 0.4));
+	transition: 1s;
+}
+.circle:hover {
+	width: 700px;
+	height: 400px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.circle:hover img {
+	position: absolute;
+	left: -10%;
+	transition: 1s;
+}
+.circle:hover .content {
+	position: absolute;
+	top: 15%;
+	right: 5%;
+	width: 60%;
+	opacity: 1;
+	transition: 1s;
+}
+.circle h1 {
+	margin-top: -5%;
+	padding-bottom: 19px;
+}
+
+.circle .content {
+	opacity: 0;
+}
+
+@media screen and (max-width: 576px) {
+	.circle {
+		width: 400px;
+		height: 400px;
+		background: skyblue;
+		border-radius: 50%;
+		position: relative;
+		box-shadow: 0px 0px 18px #fffffff2;
+		margin-bottom: 3%;
+		margin-top: 8%;
+		transition: 1s;
+		color: white;
+	}
+	.circle:hover img {
+		position: absolute;
+		left: -18%;
+		transition: 1s;
+	}
+	.circle:hover {
+		width: 450px;
+		height: 400px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+	.circle:hover .content {
+		position: absolute;
+		top: 15%;
+		right: 0%;
+		width: 60%;
+		opacity: 1;
+		transition: 1s;
+		font-size: 15px;
+	}
+	.circle img {
+		position: absolute;
+		height: 350px;
+		top: 8%;
+		left: 4%;
+		transition: 1s;
+	}
+
+	/* Skill Section */
+	#skills h1 {
+		margin-top: -5%;
+		padding-bottom: 19px;
+		margin-left: 30px;
+	}
+}
+#skills {
+	padding-top: 10%;
+	background: #e5e5e5;
+}
+
+label {
+	font-size: 20px;
+}
+.progress {
+	height: 20px !important;
+	box-shadow: 2px 4px 5px gray, -2px -2px 5px white;
+}
+.progress:hover {
+	box-shadow: 2px 4px 5px white, -2px -2px 5px gray;
+	transition: 1s;
+}
+
+/* Project Section */
+#projects {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(skyblue, violet);
+	box-sizing: border-box;
+}
+.carousel {
+	width: 80%;
+	height: 80vh;
+	padding-top: 3%;
+	box-shadow: 8px 43px 10px rgba(0, 0, 0, 0.4);
+}
+iframe {
+	width: 100%;
+	height: 80vh;
+}
+@media screen and (max-width: 576px) {
+	.carousel {
+		width: 90%;
+		height: 50vh;
+		padding-top: 2%;
+		box-shadow: 8px 16px 10px rgba(0, 0, 0, 0.4);
+	}
+	iframe {
+		width: 100%;
+		height: 50vh;
+	}
+}
+/* Pricing Section */
+#pricing {
+	padding-top: 6%;
+}
+.card {
+	margin-top: 10%;
+}
+.card:hover {
+	box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+	transition: 0.2s;
+}
+/* Contact Section */
+#contact {
+	padding-top: 5%;
+	background-color: aliceblue;
+	border: 2px solid black;
+	position: relative;
+	top: 200px;
+}
+#contact iframe {
+	box-shadow: 11px 4px 3px rgba(0, 0, 0, 0.4);
+	position: relative;
+	left: -20px;
+}
+
+@media screen and (max-width: 576px) {
+	#contact iframe {
+		position: relative;
+		left: 0px;
+	}
+}

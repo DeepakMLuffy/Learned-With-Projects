@@ -1,0 +1,67 @@
+.header{
+    background-color: black;
+    color: white;
+   
+    cursor:default;
+    text-align: center;
+    padding: 10px;
+}
+li{
+    display: inline;
+    color: grey;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+.box{
+    display: inline-block;
+    border-width: 5px;
+    border-color: black;
+    border-style:solid;
+    width: 220px;
+    
+}
+h5{
+    text-align: center;
+    background-color: black;
+    color: azure;
+    display: inline;
+    margin: 20%;
+    padding: 5px;
+    cursor:pointer;
+    
+}
+.product{
+    text-align: center;
+    padding: 30px;
+    
+}
+.box:hover{
+   background-color: black;
+   color: white;
+}
+
+h5:hover{
+    background-color:white;
+    color: black;
+}
+.contact{
+   
+    background-color: black;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+h4{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    width: 550px;
+    padding: 4px;
+    cursor: pointer;
+}
+h4:hover{
+    background-color:white;
+    color:black;
+}

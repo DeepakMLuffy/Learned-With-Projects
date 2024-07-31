@@ -1,0 +1,68 @@
+
+*{
+ top: 0;
+ margin: 0;
+ background-color: lightblue;
+}
+
+
+
+/* .container{
+ display: inline;
+} */
+
+
+
+.sub-container{
+ position: absolute;
+ left: 45%;
+ top: 10%;
+ font-weight: bolder;
+ 
+
+}
+#num1{
+  
+ border-bottom: 3px solid ;
+}
+/* #sum{
+ position: absolute;
+ top: 33%;
+ left: 28%;
+ font-weight: bolder;
+ font-size: 3em;
+ color: gray;
+} */
+
+#num3{
+ position: absolute;
+ top: 33%;
+ left: 40%;
+ font-weight: bolder;
+ font-size: 3em;
+ color: white;
+}
+
+#num2{
+ border-bottom: 3px solid ;
+ margin-left: 40px;
+}
+.sub-container p {
+ font-size: 3em;
+ display: inline-block;
+}
+
+.section{
+ position:absolute;
+ top: 50%;
+ left: 25%;
+}
+.section-btn{
+ color: black;
+ background-color: #0000;
+ font-size: 28px;
+ padding: 8px;
+ margin: 20px;
+ font-weight: bolder;
+ border: black solid;
+}

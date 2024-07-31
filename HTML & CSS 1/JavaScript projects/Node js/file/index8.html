@@ -1,0 +1,48 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="input" />
+    <button onclick="add()">Add</button>
+    <button onclick="element()">Add New</button>
+    <div>
+    <ul id = "one">
+      <li >
+        Hello
+        <button onclick="remove(event)">Delete</button>
+      </li>
+    </ul>
+    </div>
+    <script>
+      var a = document.getElementById("input");
+
+      function add() {
+         var b = a.value + "<button onclick = 'remove(event)'>Delete</button>"
+
+        var c = document.createElement("li");
+        c.innerHTML = b;
+
+        var d = document.querySelector("li");
+
+        d.insertAdjacentElement("afterend", c);
+      }
+
+      function remove (event){
+       event.target.parentElement.remove()
+      }
+      function element(){
+         var a = document.getElementById("input");
+         var b = a.value + "<button onclick = 'remove(event)'>Delete</button>"
+         var e = document.createElement("ul")
+         var f = document.querySelector("ul")
+         f.insertAdjacentHTML("afterbegin",e)
+      }
+    </script>
+  </body>
+</html>

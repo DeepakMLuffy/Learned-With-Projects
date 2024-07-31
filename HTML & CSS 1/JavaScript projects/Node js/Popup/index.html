@@ -1,0 +1,71 @@
+<!-- @format
+<style>
+  .overflow {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+    z-index: 1;
+    display: none;
+  }
+  .popupbox {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    color: black;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    left: 30%;
+    display: none;
+  }
+</style>
+<button onclick="show()">show</button>
+<div class="overflow"></div>
+<div class="popupbox">
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis odio
+    sequi similique aut. Fuga assumenda quibusdam, nam voluptate expedita
+    dignissimos? Eveniet qui culpa assumenda facere vitae! Culpa distinctio
+    quaerat vitae possimus magnam blanditiis aut. Error eaque voluptas quos
+    veniam.
+  </p>
+  <button onclick="closei()">close</button>
+</div>
+<script>
+  var popupoverlay = document.querySelector(".overflow");
+  var popupbox = document.querySelector(".popupbox");
+  function show() {
+    popupbox.style.display = "block";
+    popupoverlay.style.display = "block";
+  }
+
+  function closei() {
+    popupbox.style.display = "none";
+    popupoverlay.style.display = "none";
+  }
+</script> -->
+
+
+
+
+<button id="btn" > show</button>
+
+<script>
+var button= document.getElementById("btn")
+
+button.addEventListener("click",function(){
+ alert("Hello")
+})
+
+button.addEventListener("mouseover",function(){
+ alert("Mouse Over")
+})
+
+ // function alertmessage(){
+  
+ // }
+</script>

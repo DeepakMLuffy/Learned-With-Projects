@@ -1,0 +1,34 @@
+*{
+ margin: 0;
+ top: 0;
+}
+body{
+ background-color: black;
+ color: white;
+}
+.container{
+ background-color: red;
+ width: 400px;
+ height: 400px;
+ text-align: center;
+}
+.p{
+ padding: 15px;
+}
+.container1 button {
+ border-radius: 20px;
+ margin-top: 5px;
+ padding: 3%;
+ border: none;
+}
+.container1{
+ position: absolute;
+ top: 2%;
+ left: 40%;
+ text-align: center;
+ 
+ }
+ #pass{
+  color: red;
+  margin-top: 3px;
+ }
